@@ -32,12 +32,12 @@ rem fastboot flash modemst1 modemst1.img
 "%_FBoot%" flash tz %_CSC_Dir%\tz.mbn || @echo "Flash tz error" && exit /B 1
 "%_FBoot%" flash sbl1 %_CSC_Dir%\sbl1.mbn || @echo "Flash sbl1 error" && exit /B 1
 "%_FBoot%" flash rpm %_CSC_Dir%\rpm.mbn || @echo "Flash rpm error" && exit /B 1
-"%_FBoot%" flash aboot %_CSC_Dir%\emmc_appsboot.mbn || @echo "Flash emmc_appsboot error" && exit /B 1
+rem "%_FBoot%" flash aboot %_CSC_Dir%\emmc_appsboot.mbn
 
 "%_FBoot%" flash tzbak %_CSC_Dir%\tz.mbn || @echo "Flash tzbak error" && exit /B 1
 "%_FBoot%" flash sbl1bak %_CSC_Dir%\sbl1.mbn || @echo "Flash sbl1bak error" && exit /B 1
 "%_FBoot%" flash rpmbak %_CSC_Dir%\rpm.mbn || @echo "Flash uboot rpmbak" && exit /B 1
-"%_FBoot%" flash abootbak %_CSC_Dir%\emmc_appsboot.mbn || @echo "Flash abootbak error" && exit /B 1
+rem "%_FBoot%" flash abootbak %_CSC_Dir%\emmc_appsboot.mbn 
 
 "%_FBoot%" flash devcfg %_CSC_Dir%\devcfg.mbn || @echo "Flash devcfg error" && exit /B 1
 "%_FBoot%" flash lksecapp %_CSC_Dir%\lksecapp.mbn || @echo "Flash lksecapp error" && exit /B 1
@@ -57,7 +57,8 @@ rem fastboot flash modemst1 modemst1.img
 "%_FBoot%" erase boot
 "%_FBoot%" erase mdtp
 
-"%_FBoot%" flash modem %_CSC_Dir%\NON-HLOS.bin || @echo "Flash modem error" && exit /B 1
+rem "%_FBoot%" flash modem %_CSC_Dir%\NON-HLOS.bin
+
 "%_FBoot%" flash system %_CSC_Dir%\system.img || @echo "Flash system error" && exit /B 1
 "%_FBoot%" flash cache %_CSC_Dir%\cache.img || @echo "Flash cache error" && exit /B 1
 "%_FBoot%" flash userdata %_CSC_Dir%\userdata.img || @echo "Flash userdata error" && exit /B 1
@@ -69,8 +70,6 @@ rem fastboot flash modemst1 modemst1.img
 
 "%_FBoot%" reboot
 
-echo: 
-echo: 
 echo: 
 echo Silahkan Lanjutkan ke Ganti....
 echo: 

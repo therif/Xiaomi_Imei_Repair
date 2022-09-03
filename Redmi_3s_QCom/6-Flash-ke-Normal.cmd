@@ -9,9 +9,10 @@ for %%A in ("%~dp0\land_global_images_V10.2.2.0.MALMIXM\images\flash_all.bat") D
 
 call "%_Adb%" reboot bootloader
 
-echo "%_CSC_Dir%"
-
-
+echo Flashing Global Redmi 3S
+echo:
+echo   HP Fastboot ijo
+echo:
 
 @echo off
 
@@ -58,6 +59,9 @@ echo "%_CSC_Dir%"
 
 "%_FBoot%" reboot
 
+echo: 
+echo Done....
+echo: 
 
 pause
 exit 0
