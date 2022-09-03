@@ -1,0 +1,21 @@
+CARA REDMI 3s Qualcomm
+
+Sebelumnya Harus Proses Common Developer, kemudian :
+1. HP Nyala Normal
+2. Buka Device Manager, Colok Kabel USB
+3. Dial Code (Salah Satu code dibawah), sampai keluar Diag Port (HS Comport) pada device manager
+	*#*#13491#*#*  => Redmi_3S
+	*#*#717717#*#*
+
+	B. Jika tidak bisa diganti, disini Flash CSC Firmware
+	- Jalankan FIle 3B : 3B-Flash-CSC
+	- Flashing Memakai Kabel EDL (Kabel Khusus), 
+	  Matikan HP (HP Kondisi Mati, Tanpa Kabel Nancep), Tekan TOmbol Di Kabel, Tancapkan
+
+4. Checksum Imei untuk cek digit terakhir benar tidaknya (Jika Perlu / Opsional)
+5. Buka software "WriteDualIMEI", 
+	Isi Com nya, sesuai COM PORT nya
+	kemudian isi Imei 2 ke imei 1 dan imei 1 ke 2. Disini Khusus Redmi 3s Gold, Imei Kebalik
+	Tekan "Start", jika hijau maka sukses. boleh tekan berulang untuk memastikan.
+	
+6. Check di HP, bila perlu restart HP

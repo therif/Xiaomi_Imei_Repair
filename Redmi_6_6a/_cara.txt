@@ -1,0 +1,60 @@
+## CARA REDMI 6 / 6A MTK ##
+
+Pertama, Install "Modem Meta" di folder Tools (Sekali Install Saja).
+
+Sebelumnya Harus Proses Common Developer, kemudian :
+
+1. HP Nyala Normal
+
+2. Buka Device Manager, Colok Kabel USB
+
+3. Backup NV dan Simpan
+   - Gunakan UnlockTool, ke Mediatek -> MTK Universal -> Backup NV. (Atau dengan Tool Lain, untuk jaga-jaga)
+     Jangan Lupa Simpan Kasih Nama Model dan No Imeinya. Berguna jika gagal / error / suatu saat nanti butuh dikembalikan
+
+   - Pastikan HP sudah UBL (Bootloader Unlocked), dan firmware max miui 9/10
+
+4. Flashing HP dengan Firmware CSC (CSC \ Redmi_6_6A_Engineering_Build_S98507_20180605_V039) Melalui Fastboot
+	- Auto, jalankan file : 4-Flash-CSC
+	Disini, Jika OK, COM Port akan Keluar (Diag Qualcomm Port) dan Layar akan keluar Test Test Test
+   - Wipe / Erase NV
+
+6. PROSES META MODE.
+   A. HP Kondisi Mati / Off
+
+   B. Buka Tool Untuk Auth Bypass, Bisa UnlockTool ataupun MTKMetaUtility
+      - Untuk Unlock Tool, Klik "Mediatek" pada logo bagian diatas, kemudian bawah kiri Tab "Generic"
+      Lihat Tombol "Auth Bypass", Lihat dulu aja jangan diklik.
+      - Untu MtkMetaUtility, Tab MTK Brom, disitu ada "Disable Auth", lihat saja dulu jangan diklik.
+
+   C. Buka ModemMeta / MauiMeta, run As Administrator 
+      Settingnya :
+      Platform Type: Smartphone
+      COM Port : USB COM
+      Lainya Biarkan
+
+   D. Klik Connect Pada ModemMeta / MauiMeta
+
+   E. Kemudian pada Auth Bypass Tool, Klik Tombol nya ("Auth Bypass" jika pakai UnlockTool, "Disable Auth" jika memakai METK Meta Utility)
+
+   F. Di HP, Kondisi Mati / Off
+      Tekan Vol Up + Vol Down, Jangan dilepas, kemudian colokkan kabel.
+      Di Auth Bypass akan jalan dan MauiMeta/ModemMeta akan jalan juga bootnya
+      Tunggu Sampai Proses Complete.
+
+   G. Pada Maui Meta, Klik "Load DB", Pilih "From Target/Device/Phone"
+      Tunggu sampai Keterangan "DB is successfully loaded"
+      Kemudian Pilih Imei Download (Pada Search Tools)
+      pada Imei Download, kosongkan Imei 1, dan hanya isi Imei 2
+      kemudia klik write...
+      Klik read, pastikan hasilnya bener, klik write lagi.
+      Kemudian Close/Tutup Imei Download
+      Kemudian Klik Disconnect, dan HP akan Restart Sendiri
+      Tunggu Nyala Normal (Nyalakan jika posisi mati/charge), Cek Imei sudah benar apa belum.
+
+	
+8. Flashing HP dengan Normal Firmware (Global Images) melalui fastboot
+	- Auto, jalankan file : 7-Flash-ke-Normal
+
+9. Check di HP
+
