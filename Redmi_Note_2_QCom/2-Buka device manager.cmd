@@ -1,0 +1,3 @@
+start devmgmt
+
+exit
