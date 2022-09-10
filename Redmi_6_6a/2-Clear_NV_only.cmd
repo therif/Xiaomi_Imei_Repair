@@ -31,14 +31,10 @@ echo:
 setlocal EnableDelayedExpansion
 set /P inputcom="Erase NV Data ? [Y/N] : "
 
-if "%inputcom%" == "y" (
-    echo Apakah NVData Sudah di backup waktu normal mode ?
-    echo Do at your own risk!
-    echo:
-    "%_FBoot%" erase nvdata  || @echo "erase nvdata error"
-    "%_FBoot%" erase nvram  || @echo "erase nvram error"
-)
-if "%inputcom%" == "Y" (
+set res=n
+if "%inputcom%" == "y" set res=Y
+if "%inputcom%" == "Y" set res=Y
+if "%res%"=="Y" (
     echo Apakah NVData Sudah di backup waktu normal mode ?
     echo Do at your own risk!
     echo:
@@ -46,7 +42,7 @@ if "%inputcom%" == "Y" (
     "%_FBoot%" erase nvram  || @echo "erase nvram error"
 )
 
-"%_FBoot%" reboot
+
 
 
 echo: 

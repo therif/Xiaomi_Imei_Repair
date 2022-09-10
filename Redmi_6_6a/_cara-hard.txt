@@ -1,22 +1,25 @@
-- Pastikan IMEI Sudah Oke beneran dan sinyal keluar
-- Reset / Wipe Data semua sebelum dikerjakan.
-- Nyalakan, cuman sampai ON, jangan disetting.
+## CARA REDMI 6 / 6A MTK Hard With Flashing CSC ##
 
-Kemudian jalankan cara dibawah
+Pertama, Install "Modem Meta" di folder Tools (Sekali Install Saja).
 
-Cara Simple Pertama :
+Sebelumnya Harus Proses Common Developer, kemudian :
 
-1. Backup NV dan Simpan
+1. HP Nyala Normal
+
+2. Buka Device Manager, Colok Kabel USB
+
+3. Backup NV dan Simpan
    - Gunakan UnlockTool, ke Mediatek -> MTK Universal -> Backup NV. (Atau dengan Tool Lain, untuk jaga-jaga)
      Jangan Lupa Simpan Kasih Nama Model dan No Imeinya. Berguna jika gagal / error / suatu saat nanti butuh dikembalikan
 
    - Pastikan HP sudah UBL (Bootloader Unlocked), dan firmware max miui 9/10
 
-2. Wipe / Erase NV
-   Disini HP tidak boleh Restart, masih di menu Fastboot.
-   Untuk ke Meta Mode, pakai Vol Up dan Vol Down Tekan, kemudian Power Tekan (Tiga Tombol Tekan Semuanya)
+4. Flashing HP dengan Firmware CSC (CSC \ Redmi_6_6A_Engineering_Build_S98507_20180605_V039) Melalui Fastboot
+	- Auto, jalankan file : 4-Flash-CSC
+	Disini, Jika OK, COM Port akan Keluar (Diag Qualcomm Port) dan Layar akan keluar Test Test Test
+   - Wipe / Erase NV
 
-3. PROSES META MODE.
+6. PROSES META MODE.
    A. HP Kondisi Mati / Off
 
    B. Buka Tool Untuk Auth Bypass, Bisa UnlockTool ataupun MTKMetaUtility
@@ -49,10 +52,9 @@ Cara Simple Pertama :
       Kemudian Klik Disconnect, dan HP akan Restart Sendiri
       Tunggu Nyala Normal (Nyalakan jika posisi mati/charge), Cek Imei sudah benar apa belum.
 
-4. Nyalakan Cek Sinyal
+	
+8. Flashing HP dengan Normal Firmware (Global Images) melalui fastboot
+	- Auto, jalankan file : 7-Flash-ke-Normal
 
-
-Note : Imei masih aslinya, sinyal aman.
-       Jika Suatu Saat Nanti HP Di Wipe Data Via Recovery ataupun Factory Reset, Sinyal akan tetap aman, Hasilnya akan sesuai dengan Cara Hard CSC.
-       Tidak Masalah pada Fungsi.
+9. Check di HP
 

@@ -1,0 +1,56 @@
+
+
+
+echo "xacus fastboot flash tools"
+
+
+fastboot %* getvar product 2>&1 | findstr /r /c:"^product: *xacus" || echo Missmatching image and device
+fastboot %* getvar product 2>&1 | findstr /r /c:"^product: *xacus" || exit /B 1
+
+
+
+fastboot flash lk lk.img
+
+fastboot flash lk2 lk.img
+
+fastboot flash preloader preloader_*xacus.img
+
+fastboot flash recovery recovery.img
+
+fastboot flash md1img md1img.img
+
+fastboot flash md1dsp md1dsp.img
+
+fastboot flash spmfw spmfw.img
+
+fastboot flash sspm_1 sspm.img
+
+fastboot flash sspm_2 sspm.img
+
+fastboot flash boot boot.img
+
+fastboot flash logo logo.img
+
+fastboot flash odmdtbo odmdtbo.img
+
+fastboot flash tee1 tee.img
+
+fastboot flash tee2 tee.img
+
+fastboot flash vendor vendor.img
+
+fastboot flash system system.img
+
+fastboot flash cache cache.img
+
+fastboot flash userdata userdata.img
+
+
+
+fastboot %* reboot
+pause
+exit 0
+:error
+pause
+exit /B 1
+

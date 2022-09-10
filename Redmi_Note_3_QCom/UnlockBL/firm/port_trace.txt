@@ -1,0 +1,141 @@
+
+11:30:43: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+************************************************
+fh_loader --port=\\.\COM16 --setactivepartition=0 --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=emmc 
+************************************************
+
+11:30:43: DEBUG: Binary build date: May  9 2017 @ 03:56:18
+
+11:30:43: DEBUG: Build Version: 17.05. 9.03.56.18
+
+11:30:43: INFO: Current working dir (cwd): D:\IM\Tools-IM\Redmi_Note_2_QCom\UnlockBL\firm\
+11:30:43: INFO: Showing network mappings to allow debugging
+11:30:43: DEBUG: New connections will be remembered.
+
+11:30:43: DEBUG: 
+
+11:30:43: DEBUG: There are no entries in the list.
+
+11:30:43: DEBUG: 
+
+11:30:43: DEBUG: User set ZLPAWAREHOST to 1
+
+11:30:43: INFO: User wants to talk to port '\\.\COM16'
+11:30:43: DEBUG: port_fd=0x104
+
+11:30:43: INFO: Took       0.00000000 seconds to open port
+11:30:43: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+11:30:43: INFO: If  you don't want this, use --dontsorttags
+
+11:30:43: INFO: Sending <configure>
+11:30:43: DEBUG: CHANNEL DATA (P0000) (H00202) (    228 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<configure MemoryName="emmc" Verbose="0" AlwaysValidate="0" MaxDigestTableSizeInBytes="8192" MaxPayloadSizeToTargetInBytes="1048576" ZlpAwareHost="1" SkipStorageInit="0" />
+</data>
+
+============================================================================================================
+
+11:30:43: DEBUG: CharsInBuffer=0 Trying to read from USB 8192 bytes
+11:30:43: DEBUG: CHANNEL DATA (400 bytes) <-- TARGET to HOST
+11:30:43: DEBUG: CharsInBuffer = 400
+11:30:43: DEBUG: printBuffer:5374 PRETTYPRINT Buffer is 400 bytes
+
+11:30:43: DEBUG: printBuffer:5451 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+11:30:43: DEBUG: printBuffer:5451 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+11:30:43: DEBUG: printBuffer:5451 46 2D 38 22 20 3F 3E 3C 64 61 74 61 3E 3C 6C 6F F-8" ?><data><lo
+11:30:43: DEBUG: printBuffer:5451 67 20 76 61 6C 75 65 3D 22 6C 6F 67 62 75 66 40 g value="logbuf@
+11:30:43: DEBUG: printBuffer:5451 30 78 30 38 30 36 44 37 38 38 20 66 68 40 30 78 0x0806D788 fh@0x
+11:30:43: DEBUG: printBuffer:5451 30 38 30 36 41 35 46 30 22 20 2F 3E 3C 2F 64 61 0806A5F0" /></da
+11:30:43: DEBUG: printBuffer:5451 74 61 3E 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E ta><?xml version
+11:30:43: DEBUG: printBuffer:5451 3D 22 31 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D ="1.0" encoding=
+11:30:43: DEBUG: printBuffer:5451 22 55 54 46 2D 38 22 20 3F 3E 3C 64 61 74 61 3E "UTF-8" ?><data>
+11:30:43: DEBUG: printBuffer:5451 3C 72 65 73 70 6F 6E 73 65 20 76 61 6C 75 65 3D <response value=
+11:30:43: DEBUG: printBuffer:5451 22 41 43 4B 22 20 4D 69 6E 56 65 72 73 69 6F 6E "ACK" MinVersion
+11:30:43: DEBUG: printBuffer:5451 53 75 70 70 6F 72 74 65 64 3D 22 31 22 20 4D 65 Supported="1" Me
+11:30:43: DEBUG: printBuffer:5451 6D 6F 72 79 4E 61 6D 65 3D 22 65 4D 4D 43 22 20 moryName="eMMC" 
+11:30:43: DEBUG: printBuffer:5451 4D 61 78 50 61 79 6C 6F 61 64 53 69 7A 65 46 72 MaxPayloadSizeFr
+11:30:43: DEBUG: printBuffer:5451 6F 6D 54 61 72 67 65 74 49 6E 42 79 74 65 73 3D omTargetInBytes=
+11:30:43: DEBUG: printBuffer:5451 22 34 30 39 36 22 20 4D 61 78 50 61 79 6C 6F 61 "4096" MaxPayloa
+11:30:43: DEBUG: printBuffer:5451 64 53 69 7A 65 54 6F 54 61 72 67 65 74 49 6E 42 dSizeToTargetInB
+11:30:43: DEBUG: printBuffer:5451 79 74 65 73 3D 22 31 30 34 38 35 37 36 22 20 4D ytes="1048576" M
+11:30:43: DEBUG: printBuffer:5451 61 78 50 61 79 6C 6F 61 64 53 69 7A 65 54 6F 54 axPayloadSizeToT
+11:30:43: DEBUG: printBuffer:5451 61 72 67 65 74 49 6E 42 79 74 65 73 53 75 70 70 argetInBytesSupp
+11:30:43: DEBUG: printBuffer:5451 6F 72 74 65 64 3D 22 31 30 34 38 35 37 36 22 20 orted="1048576" 
+11:30:43: DEBUG: printBuffer:5451 4D 61 78 58 4D 4C 53 69 7A 65 49 6E 42 79 74 65 MaxXMLSizeInByte
+11:30:43: DEBUG: printBuffer:5451 73 3D 22 34 30 39 36 22 20 56 65 72 73 69 6F 6E s="4096" Version
+11:30:43: DEBUG: printBuffer:5451 3D 22 31 22 20 54 61 72 67 65 74 4E 61 6D 65 3D ="1" TargetName=
+11:30:43: DEBUG: printBuffer:5451 22 38 39 37 36 22 20 2F 3E 3C 2F 64 61 74 61 3E "8976" /></data>
+11:30:43: DEBUG: printBuffer:5464 
+
+
+11:30:43: DEBUG: XML FILE (99 bytes): CharsInBuffer=400-99=301
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?><data><log value="logbuf@0x0806D788 fh@0x0806A5F0" /></data>
+-------------------------------------------------------------------------------------------
+
+11:30:43: INFO: TARGET SAID: 'logbuf@0x0806D788 fh@0x0806A5F0'
+11:30:43: DEBUG: XML FILE (301 bytes): CharsInBuffer=301-301=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?><data><response value="ACK" MinVersionSupported="1" MemoryName="eMMC" MaxPayloadSizeFromTargetInBytes="4096" MaxPayloadSizeToTargetInBytes="1048576" MaxPayloadSizeToTargetInBytesSupported="1048576" MaxXMLSizeInBytes="4096" Version="1" TargetName="8976" /></data>
+-------------------------------------------------------------------------------------------
+
+11:30:43: DEBUG: Response was 'ACK'
+11:30:43: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+11:30:43: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 1048576
+11:30:43: DEBUG: Got the ACK for the <configure>
+11:30:43: INFO: Sending <setbootablestoragedrive>
+11:30:43: DEBUG: CHANNEL DATA (P0001) (H00203) (     93 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<setbootablestoragedrive value="0" />
+</data>
+
+============================================================================================================
+
+11:30:43: DEBUG: CharsInBuffer=0 Trying to read from USB 4096 bytes
+11:30:43: DEBUG: CHANNEL DATA (168 bytes) <-- TARGET to HOST
+11:30:43: DEBUG: CharsInBuffer = 168
+11:30:43: DEBUG: printBuffer:5374 PRETTYPRINT Buffer is 168 bytes
+
+11:30:43: DEBUG: printBuffer:5451 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+11:30:43: DEBUG: printBuffer:5451 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+11:30:43: DEBUG: printBuffer:5451 46 2D 38 22 20 3F 3E 3C 64 61 74 61 3E 3C 6C 6F F-8" ?><data><lo
+11:30:43: DEBUG: printBuffer:5451 67 20 76 61 6C 75 65 3D 22 53 65 74 20 62 6F 6F g value="Set boo
+11:30:43: DEBUG: printBuffer:5451 74 61 62 6C 65 20 64 72 69 76 65 20 74 6F 20 30 table drive to 0
+11:30:43: DEBUG: printBuffer:5451 2E 22 20 2F 3E 3C 2F 64 61 74 61 3E 3C 3F 78 6D ." /></data><?xm
+11:30:43: DEBUG: printBuffer:5451 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 20 l version="1.0" 
+11:30:43: DEBUG: printBuffer:5451 65 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D 38 22 encoding="UTF-8"
+11:30:43: DEBUG: printBuffer:5451 20 3F 3E 3C 64 61 74 61 3E 3C 72 65 73 70 6F 6E  ?><data><respon
+11:30:43: DEBUG: printBuffer:5451 73 65 20 76 61 6C 75 65 3D 22 41 43 4B 22 20 2F se value="ACK" /
+11:30:43: DEBUG: printBuffer:5451 3E 3C 2F 64 61 74 61 3E                         ></data>
+11:30:43: DEBUG: printBuffer:5464 
+
+
+11:30:43: DEBUG: XML FILE (92 bytes): CharsInBuffer=168-92=76
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?><data><log value="Set bootable drive to 0." /></data>
+-------------------------------------------------------------------------------------------
+
+11:30:43: INFO: TARGET SAID: 'Set bootable drive to 0.'
+11:30:43: DEBUG: XML FILE (76 bytes): CharsInBuffer=76-76=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?><data><response value="ACK" /></data>
+-------------------------------------------------------------------------------------------
+
+11:30:43: DEBUG: Response was 'ACK'
+11:30:43: DEBUG: Got the ACK
+11:30:43: INFO: ==============================================================
+11:30:43: INFO: Files used and their paths
+11:30:43: INFO:   1 'D:\IM\Tools-IM\Redmi_Note_2_QCom\UnlockBL\firm\port_trace.txt'
+11:30:43: INFO:      _             (done)
+11:30:43: INFO:     | |                 
+11:30:43: INFO:   __| | ___  _ __   ___ 
+11:30:43: INFO:  / _` |/ _ \| '_ \ / _ \
+11:30:43: INFO: | (_| | (_) | | | |  __/
+11:30:43: INFO:  \__,_|\___/|_| |_|\___|
+11:30:43: INFO: {All Finished Successfully}
+
+11:30:43: INFO: FILE ACCESS SLOW!!     0.00 B in  0.015 seconds (    0.00 Bps) --- Overall to target  0.063 seconds (0.00 Bps)

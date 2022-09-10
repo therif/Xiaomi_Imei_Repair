@@ -1,22 +1,4 @@
-- Pastikan IMEI Sudah Oke beneran dan sinyal keluar
-- Reset / Wipe Data semua sebelum dikerjakan.
-- Nyalakan, cuman sampai ON, jangan disetting.
-
-Kemudian jalankan cara dibawah
-
-Cara Simple Pertama :
-
-1. Backup NV dan Simpan
-   - Gunakan UnlockTool, ke Mediatek -> MTK Universal -> Backup NV. (Atau dengan Tool Lain, untuk jaga-jaga)
-     Jangan Lupa Simpan Kasih Nama Model dan No Imeinya. Berguna jika gagal / error / suatu saat nanti butuh dikembalikan
-
-   - Pastikan HP sudah UBL (Bootloader Unlocked), dan firmware max miui 9/10
-
-2. Wipe / Erase NV
-   Disini HP tidak boleh Restart, masih di menu Fastboot.
-   Untuk ke Meta Mode, pakai Vol Up dan Vol Down Tekan, kemudian Power Tekan (Tiga Tombol Tekan Semuanya)
-
-3. PROSES META MODE.
+PROSES META MODE.
    A. HP Kondisi Mati / Off
 
    B. Buka Tool Untuk Auth Bypass, Bisa UnlockTool ataupun MTKMetaUtility
@@ -48,11 +30,3 @@ Cara Simple Pertama :
       Kemudian Close/Tutup Imei Download
       Kemudian Klik Disconnect, dan HP akan Restart Sendiri
       Tunggu Nyala Normal (Nyalakan jika posisi mati/charge), Cek Imei sudah benar apa belum.
-
-4. Nyalakan Cek Sinyal
-
-
-Note : Imei masih aslinya, sinyal aman.
-       Jika Suatu Saat Nanti HP Di Wipe Data Via Recovery ataupun Factory Reset, Sinyal akan tetap aman, Hasilnya akan sesuai dengan Cara Hard CSC.
-       Tidak Masalah pada Fungsi.
-

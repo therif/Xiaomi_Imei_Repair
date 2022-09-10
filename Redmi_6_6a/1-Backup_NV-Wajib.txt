@@ -1,0 +1,7 @@
+# Backup NV dan Simpan
+   - Gunakan UnlockTool, ke Mediatek -> MTK Universal -> Backup NV. (Atau dengan Tool Lain, untuk jaga-jaga)
+     Jangan Lupa Simpan Kasih Nama Model dan No Imeinya. Berguna jika gagal / error / suatu saat nanti butuh dikembalikan
+
+   - Pastikan HP sudah UBL (Bootloader Unlocked), dan firmware max miui 9/10
+
+

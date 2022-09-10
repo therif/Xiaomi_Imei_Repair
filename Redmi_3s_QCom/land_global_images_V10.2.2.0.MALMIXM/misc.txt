@@ -1,0 +1,3 @@
+device=land
+build_number=V10.2.2.0.MALMIXM
+userdata_version=20190423.0000.00

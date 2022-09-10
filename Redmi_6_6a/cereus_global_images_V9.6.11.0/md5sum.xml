@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<root>
+  <digests>
+    <digest hash="md5" name="lk.img">4422af258e108f3bc00f371a8f02b931</digest>
+    <digest hash="md5" name="boot.img">904a067f95351501c56140780dd50ee0</digest>
+    <digest hash="md5" name="logo.bin">e2d0cd9401897c2d2b5b7a23c00a0704</digest>
+    <digest hash="md5" name="preloader_cereus.bin">cbeed8f679d256ec2ac95ecdf0af61c9</digest>
+    <digest hash="md5" name="scp.img">0800fad3211b47110545812d2e79e2bf</digest>
+    <digest hash="md5" name="md1img.img">2b654f02edb629a0df534d399b6f650f</digest>
+    <digest hash="md5" name="system.img">4c1547bea4775c9033cd74e6ec17943a</digest>
+    <digest hash="md5" name="vbmeta.img">8fbcc04f5152e26c0de7938d805e99b4</digest>
+    <digest hash="md5" name="sspm.img">cd5ca092e3bf0a900d908bda7cc0df1f</digest>
+    <digest hash="md5" name="userdata.img">c1266d04cf4cf66946be66b9c8525649</digest>
+    <digest hash="md5" name="crclist.txt">4eb66f5d92036c01a65f6e66614a7ff3</digest>
+    <digest hash="md5" name="recovery.img">6242dcd4bf6d0805210007c79a7f5e02</digest>
+    <digest hash="md5" name="sparsecrclist.txt">41f4b9bac68c56c70232b22c4bdd9cc1</digest>
+    <digest hash="md5" name="odmdtbo.img">99f14940c1e9a0119a86952932379130</digest>
+    <digest hash="md5" name="cache.img">0986e8fa5ad035c2fc20f0c6c852f00d</digest>
+    <digest hash="md5" name="cust.img">fb588a0a7f4d42fa147fccd379380059</digest>
+    <digest hash="md5" name="spmfw.img">61f9cac736eb2257c1b339729674cdef</digest>
+    <digest hash="md5" name="tee.img">2da038c4c6768e0b9460195b1759eb50</digest>
+    <digest hash="md5" name="efuse.img">897316929176464ebc9ad085f31e7284</digest>
+    <digest hash="md5" name="MT6765_Android_scatter.txt">84dd0285e4365d3a5a2be100e804da78</digest>
+    <digest hash="md5" name="vendor.img">696c489c5d72badab17eb8b971832d40</digest>
+  </digests>
+</root>

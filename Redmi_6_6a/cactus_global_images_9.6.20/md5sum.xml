@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<root>
+  <digests>
+    <digest hash="md5" name="recovery.img">3cb054002c3af94ead99ad383c2d6c06</digest>
+    <digest hash="md5" name="cache.img">c9a95ca8fa037f28b41393d69cbff0af</digest>
+    <digest hash="md5" name="sspm.img">550bccb217b3a7ac1a272191758f1091</digest>
+    <digest hash="md5" name="preloader_cactus.bin">16906bc61a17af80047d864bf43a52a8</digest>
+    <digest hash="md5" name="cust.img">cc3f8425935a5bb00886df743c766a2b</digest>
+    <digest hash="md5" name="lk.img">18bb355abb2c0e1b29133ecf126d72ce</digest>
+    <digest hash="md5" name="logo.bin">9918da077fc0fa4f7354a93ba2cb3076</digest>
+    <digest hash="md5" name="sparsecrclist.txt">03c277c5e7237e7f54f7f7ea5bc5e71c</digest>
+    <digest hash="md5" name="scp.img">ee9c96d89324712541d782ed91b0d891</digest>
+    <digest hash="md5" name="crclist.txt">69006a13088ff846b7b6860ed2e91044</digest>
+    <digest hash="md5" name="userdata.img">bd4a6270b416b6c85cccfaf9d714e92a</digest>
+    <digest hash="md5" name="vendor.img">9afbb115f2016b675323abf7ee18f53c</digest>
+    <digest hash="md5" name="spmfw.img">6585fc3b220ae4a9fd4a36edc830b2d5</digest>
+    <digest hash="md5" name="system.img">7cade3b8ab30c81bd6cfff8aa33694e4</digest>
+    <digest hash="md5" name="MT6765_Android_scatter.txt">253ba54bfc21620ea91cd702f20b1a92</digest>
+    <digest hash="md5" name="boot.img">b7dce98b3b6b2349fe7a380427344b54</digest>
+    <digest hash="md5" name="md1img.img">aa08100890fce48ede0f90bc65e1dcae</digest>
+    <digest hash="md5" name="vbmeta.img">28628b37620209a06813dd42a104260e</digest>
+    <digest hash="md5" name="tee.img">53ace5831abf79c516ca3629557cbd8f</digest>
+    <digest hash="md5" name="odmdtbo.img">c753b259e94a9d77fb67480a418e370a</digest>
+    <digest hash="md5" name="efuse.img">897316929176464ebc9ad085f31e7284</digest>
+  </digests>
+</root>

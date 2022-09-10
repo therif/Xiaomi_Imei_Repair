@@ -1,0 +1,3 @@
+device=cactus
+build_number=9.6.20
+userdata_version=20190620.0000.00

@@ -1,0 +1,3 @@
+device=land
+build_number=V7.5.1.0.MALCNDE
+userdata_version=20160629.0000.25

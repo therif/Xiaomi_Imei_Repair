@@ -1,0 +1,301 @@
+2022-08-25 15:51:11.000    Validating Application Configuration
+2022-08-25 15:51:11.002    Load APP Configuration
+2022-08-25 15:51:11.015    COM:16
+2022-08-25 15:51:11.015    PBLDOWNLOADPROTOCOL:0
+2022-08-25 15:51:11.015    PROGRAMMER:True
+2022-08-25 15:51:11.015    PROGRAMMER:
+2022-08-25 15:51:11.015    RESETSAHARASTATEMACHINE:False
+2022-08-25 15:51:11.015    SAHARAREADSERIALNO:False
+2022-08-25 15:51:11.015    SEARCHPATH:C:\
+2022-08-25 15:51:11.015    ACKRAWDATAEVERYNUMPACKETS:False
+2022-08-25 15:51:11.015    ACKRAWDATAEVERYNUMPACKETS:100
+2022-08-25 15:51:11.015    MAXPAYLOADSIZETOTARGETINBYTES:False
+2022-08-25 15:51:11.015    MAXPAYLOADSIZETOTARGETINBYTES:49152
+2022-08-25 15:51:11.015    DEVICETYPE:emmc
+2022-08-25 15:51:11.015    PLATFORM:8x26
+2022-08-25 15:51:11.015    VALIDATIONMODE:0
+2022-08-25 15:51:11.015    RESETAFTERDOWNLOAD:False
+2022-08-25 15:51:11.015    MAXDIGESTTABLESIZE:8192
+2022-08-25 15:51:11.015    SWITCHTOFIREHOSETIMEOUT:30
+2022-08-25 15:51:11.015    RESETTIMEOUT:200
+2022-08-25 15:51:11.015    RESETDELAYTIME:2
+2022-08-25 15:51:11.015    METABUILD:
+2022-08-25 15:51:11.015    METABUILD:
+2022-08-25 15:51:11.015    FLATBUILDPATH:C:\
+2022-08-25 15:51:11.015    FLATBUILDFORCEOVERRIDE:True
+2022-08-25 15:51:11.015    QCNPATH:D:\PROJECTS\HP\Ganti_IMEI\Data\Redmi_3s\861111034575566_5566_mod.qcn
+2022-08-25 15:51:11.015    QCNAUTOBACKUPRESTORE:False
+2022-08-25 15:51:11.015    SPCCODE:000000
+2022-08-25 15:51:11.015    ENABLEMULTISIM:True
+2022-08-25 15:51:11.015    AUTOPRESERVEPARTITIONS:False
+2022-08-25 15:51:11.015    PARTITIONPRESERVEMODE:0
+2022-08-25 15:51:11.015    PRESERVEDPARTITIONS:0
+2022-08-25 15:51:11.015    PRESERVEDPARTITIONS:
+2022-08-25 15:51:11.015    ERASEALL:False
+2022-08-25 15:51:11.015    Load ARG Configuration
+2022-08-25 15:51:11.029    Validating Download Configuration
+2022-08-25 15:51:11.030    Image Search Path: C:\
+2022-08-25 15:51:11.154    Process Index:0
+2022-08-25 15:52:03.814    Programmer Path:D:\IM\Tools-IM\Redmi_Note-3_QCOM\UnlockBL\firm\prog_emmc_firehose_8976_ddr.mbn
+2022-08-25 15:52:03.816    Image Search Path: D:\IM\Tools-IM\Redmi_Note-3_QCOM\UnlockBL\firm
+2022-08-25 15:52:09.887    Image Search Path: D:\IM\Tools-IM\Redmi_Note-3_QCOM\UnlockBL\firm
+2022-08-25 15:52:09.887    RAWPROGRAM file path: D:\IM\Tools-IM\Redmi_Note-3_QCOM\UnlockBL\firm\rawprogram0.xml
+2022-08-25 15:52:09.887    PATCH file path:D:\IM\Tools-IM\Redmi_Note-3_QCOM\UnlockBL\firm\patch0.xml
+2022-08-25 15:52:14.485    Start Download
+2022-08-25 15:52:14.490    Program Path:D:\IM\Tools-IM\Redmi_Note-3_QCOM\UnlockBL\firm\prog_emmc_firehose_8976_ddr.mbn
+2022-08-25 15:52:14.496    ***** Working Folder:C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16
+2022-08-25 15:52:14.790    Binary build date: Nov 21 2017 @ 02:53:37
+2022-08-25 15:52:14.791    QSAHARASERVER CALLED LIKE THIS: 'C:\Program Files (x86)\Qualcomm\QPST\bin\QSaharaServer.ex'Current working dir: C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16
+2022-08-25 15:52:14.792    Sahara mappings:
+2022-08-25 15:52:14.792    2: amss.mbn
+2022-08-25 15:52:14.792    6: apps.mbn
+2022-08-25 15:52:14.794    8: dsp1.mbn
+2022-08-25 15:52:14.795    10: dbl.mbn
+2022-08-25 15:52:14.795    11: osbl.mbn
+2022-08-25 15:52:14.796    12: dsp2.mbn
+2022-08-25 15:52:14.796    16: efs1.mbn
+2022-08-25 15:52:14.797    17: efs2.mbn
+2022-08-25 15:52:14.797    20: efs3.mbn
+2022-08-25 15:52:14.798    21: sbl1.mbn
+2022-08-25 15:52:14.798    22: sbl2.mbn
+2022-08-25 15:52:14.798    23: rpm.mbn
+2022-08-25 15:52:14.799    25: tz.mbn
+2022-08-25 15:52:14.799    28: dsp3.mbn
+2022-08-25 15:52:14.800    29: acdb.mbn
+2022-08-25 15:52:14.800    30: wdt.mbn
+2022-08-25 15:52:14.801    31: mba.mbn
+2022-08-25 15:52:14.801    13: D:\IM\Tools-IM\Redmi_Note-3_QCOM\UnlockBL\firm\prog_emmc_firehose_8976_ddr.mbn
+2022-08-25 15:52:14.801    
+2022-08-25 15:52:14.802    15:52:14: Requested ID 13, file: "D:\IM\Tools-IM\Redmi_Note-3_QCOM\UnlockBL\firm\prog_emmc_firehose_8976_ddr.mbn"
+2022-08-25 15:52:14.802    
+2022-08-25 15:52:14.803    15:52:14: 339476 bytes transferred in 0.250000 seconds (1.2950MBps)
+2022-08-25 15:52:14.803    
+2022-08-25 15:52:14.804    
+2022-08-25 15:52:14.804    
+2022-08-25 15:52:14.805    15:52:14: File transferred successfully
+2022-08-25 15:52:14.805    
+2022-08-25 15:52:14.806    
+2022-08-25 15:52:14.806    NOTE: Target requested image 13 which is DeviceProgrammer. Forcing QUIT. This is by design, ** All is well ** SUCCESS!!
+2022-08-25 15:52:14.807    
+2022-08-25 15:52:14.807    
+2022-08-25 15:52:14.808    15:52:14: Sahara protocol completed
+2022-08-25 15:52:14.809    Sending Programmer Finished
+2022-08-25 15:52:14.809    Switch To FireHose
+2022-08-25 15:52:14.809    Wait for 3 seconds...
+2022-08-25 15:52:17.822    Max Payload Size to Target:49152 Bytes
+2022-08-25 15:52:17.823    Device Type:emmc
+2022-08-25 15:52:17.823    Platform:8x26
+2022-08-25 15:52:17.824    Disable Ack Raw Data Every N Packets
+2022-08-25 15:52:17.824    Skip Write:False
+2022-08-25 15:52:17.824    Always Validate:False
+2022-08-25 15:52:17.825    Use Verbose:False
+2022-08-25 15:52:17.829    ***** Working Folder:C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16
+2022-08-25 15:52:18.074    
+2022-08-25 15:52:18.074    Base Version: 17.11.16.14.34
+2022-08-25 15:52:18.075    Binary build date: Nov 21 2017 @ 02:53:33
+2022-08-25 15:52:18.076    Incremental Build version: 17.11.21.02.53.33
+2022-08-25 15:52:18.076    
+2022-08-25 15:52:18.077    15:52:17: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+2022-08-25 15:52:18.077    ************************************************
+2022-08-25 15:52:18.078    C:\Program Files (x86)\Qualcomm\QPST\bin\fh_loader.exe --port=\\.\COM16 --sendxml=rawprogram0.xml --search_path=D:\IM\Tools-IM\Redmi_Note-3_QCOM\UnlockBL\firm --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=emmc 
+2022-08-25 15:52:18.079    ************************************************
+2022-08-25 15:52:18.080    
+2022-08-25 15:52:18.080    15:52:17: INFO: Current working dir (cwd): C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16\
+2022-08-25 15:52:18.081    15:52:17: INFO: Showing network mappings to allow debugging
+2022-08-25 15:52:18.081    15:52:17: INFO: 
+2022-08-25 15:52:18.081    
+2022-08-25 15:52:18.082    
+2022-08-25 15:52:18.082    
+2022-08-25 15:52:18.083    15:52:17: INFO: Trying to store 'rawprogram0.xml' in string table
+2022-08-25 15:52:18.083    15:52:17: INFO: Looking for file 'rawprogram0.xml'
+2022-08-25 15:52:18.084    15:52:17: INFO: User wants to talk to port '\\.\COM16'
+2022-08-25 15:52:18.084    15:52:17: INFO: Took       0.00000000 seconds to open port
+2022-08-25 15:52:18.085    15:52:17: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+2022-08-25 15:52:18.085    15:52:17: INFO: If  you don't want this, use --dontsorttags
+2022-08-25 15:52:18.085    
+2022-08-25 15:52:18.086    15:52:17: INFO: Looking for file 'emmc_appsboot.mbn'
+2022-08-25 15:52:18.086    15:52:17: INFO: 
+2022-08-25 15:52:18.087    
+2022-08-25 15:52:18.087    Total to be tansferd with <program> or <read> is 594.77 KB
+2022-08-25 15:52:18.088    
+2022-08-25 15:52:18.088    
+2022-08-25 15:52:18.089    15:52:17: INFO: Sending <configure>
+2022-08-25 15:52:18.089    
+2022-08-25 15:52:18.090    15:52:17: INFO: TARGET SAID: 'logbuf@0x0806D788 fh@0x0806A5F0'
+2022-08-25 15:52:18.090    15:52:17: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+2022-08-25 15:52:18.091    15:52:17: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 1048576
+2022-08-25 15:52:18.091    15:52:17: INFO: In handleProgram('emmc_appsboot.mbn')
+2022-08-25 15:52:18.092    15:52:17: INFO: Looking for file 'emmc_appsboot.mbn'
+2022-08-25 15:52:18.092    15:52:17: INFO: =======================================================
+2022-08-25 15:52:18.093    15:52:17: INFO: {<program> FILE: 'D:\IM\Tools-IM\Redmi_Note-3_QCOM\UnlockBL\firm\emmc_appsboot.mbn'}
+2022-08-25 15:52:18.093    15:52:17: INFO: {<program> (594.77 KB) 1190 sectors needed at location 786432 on LUN 0}
+2022-08-25 15:52:18.094    15:52:17: INFO: =======================================================
+2022-08-25 15:52:18.094    
+2022-08-25 15:52:18.095    
+2022-08-25 15:52:18.095    15:52:17: INFO: TARGET SAID: 'logbuf@0x0806D788 fh@0x0806A5F0'
+2022-08-25 15:52:18.096    
+2022-08-25 15:52:18.096    15:52:17: INFO: TARGET SAID: 'start 786432, num 1190'
+2022-08-25 15:52:18.097    
+2022-08-25 15:52:18.097    15:52:17: INFO: FILE ACCESS SLOW!!  595.00 KB in  0.015 seconds (  38.74 MBps) --- Overall to target  0.015 seconds (38.74 MBps)
+2022-08-25 15:52:18.098    15:52:17: INFO: {percent files transferred 100.00%}
+2022-08-25 15:52:18.098    
+2022-08-25 15:52:18.099    15:52:18: INFO: TARGET SAID: 'Finished sector address 787622'
+2022-08-25 15:52:18.099    15:52:18: INFO: 
+2022-08-25 15:52:18.100    15:52:18: INFO: =======================================================
+2022-08-25 15:52:18.100    15:52:18: INFO: ==================== {SUCCESS} ========================
+2022-08-25 15:52:18.101    15:52:18: INFO: =======================================================
+2022-08-25 15:52:18.101    
+2022-08-25 15:52:18.102    
+2022-08-25 15:52:18.102    15:52:18: INFO: {percent files transferred 100.00%}
+2022-08-25 15:52:18.103    15:52:18: INFO: ==============================================================
+2022-08-25 15:52:18.103    15:52:18: INFO: Files used and their paths
+2022-08-25 15:52:18.103    15:52:18: INFO:   1 'C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16\port_trace.txt'
+2022-08-25 15:52:18.104    15:52:18: INFO:   2 'D:\IM\Tools-IM\Redmi_Note-3_QCOM\UnlockBL\firm\rawprogram0.xml'
+2022-08-25 15:52:18.105    15:52:18: INFO:   3 'D:\IM\Tools-IM\Redmi_Note-3_QCOM\UnlockBL\firm\emmc_appsboot.mbn'
+2022-08-25 15:52:18.105    
+2022-08-25 15:52:18.106    15:52:18: INFO:      _             (done)
+2022-08-25 15:52:18.106    15:52:18: INFO:     | |                 
+2022-08-25 15:52:18.106    15:52:18: INFO:   __| | ___  _ __   ___ 
+2022-08-25 15:52:18.107    15:52:18: INFO:  / _` |/ _ \| '_ \ / _ \
+2022-08-25 15:52:18.107    15:52:18: INFO: | (_| | (_) | | | |  __/
+2022-08-25 15:52:18.108    15:52:18: INFO:  \__,_|\___/|_| |_|\___|
+2022-08-25 15:52:18.108    15:52:18: INFO: {All Finished Successfully}
+2022-08-25 15:52:18.109    
+2022-08-25 15:52:18.110    15:52:18: INFO: FILE ACCESS SLOW!!  594.77 KB in  0.015 seconds (  38.72 MBps) --- Overall to target  0.156 seconds (3.72 MBps)
+2022-08-25 15:52:18.110    15:52:18: INFO: {percent files transferred 100.00%}
+2022-08-25 15:52:18.111    
+2022-08-25 15:52:18.111    Writing log to 'C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16\port_trace.txt', might take a minute
+2022-08-25 15:52:18.112    
+2022-08-25 15:52:18.112    
+2022-08-25 15:52:18.112    Log is 'C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16\port_trace.txt'
+2022-08-25 15:52:18.113    
+2022-08-25 15:52:18.114    ***** Working Folder:C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16
+2022-08-25 15:52:18.590    
+2022-08-25 15:52:18.591    Base Version: 17.11.16.14.34
+2022-08-25 15:52:18.592    Binary build date: Nov 21 2017 @ 02:53:33
+2022-08-25 15:52:18.593    Incremental Build version: 17.11.21.02.53.33
+2022-08-25 15:52:18.593    
+2022-08-25 15:52:18.594    15:52:18: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+2022-08-25 15:52:18.594    ************************************************
+2022-08-25 15:52:18.595    C:\Program Files (x86)\Qualcomm\QPST\bin\fh_loader.exe --port=\\.\COM16 --sendxml=patch0.xml --search_path=D:\IM\Tools-IM\Redmi_Note-3_QCOM\UnlockBL\firm --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=emmc 
+2022-08-25 15:52:18.596    ************************************************
+2022-08-25 15:52:18.596    
+2022-08-25 15:52:18.597    15:52:18: INFO: Current working dir (cwd): C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16\
+2022-08-25 15:52:18.597    15:52:18: INFO: Showing network mappings to allow debugging
+2022-08-25 15:52:18.598    15:52:18: INFO: 
+2022-08-25 15:52:18.598    
+2022-08-25 15:52:18.599    
+2022-08-25 15:52:18.599    
+2022-08-25 15:52:18.599    15:52:18: INFO: Trying to store 'patch0.xml' in string table
+2022-08-25 15:52:18.600    15:52:18: INFO: Looking for file 'patch0.xml'
+2022-08-25 15:52:18.603    15:52:18: INFO: User wants to talk to port '\\.\COM16'
+2022-08-25 15:52:18.604    15:52:18: INFO: Took       0.00000000 seconds to open port
+2022-08-25 15:52:18.604    15:52:18: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+2022-08-25 15:52:18.605    15:52:18: INFO: If  you don't want this, use --dontsorttags
+2022-08-25 15:52:18.605    
+2022-08-25 15:52:18.605    15:52:18: INFO: Sending <configure>
+2022-08-25 15:52:18.606    
+2022-08-25 15:52:18.606    15:52:18: INFO: TARGET SAID: 'logbuf@0x0806D788 fh@0x0806A5F0'
+2022-08-25 15:52:18.607    15:52:18: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+2022-08-25 15:52:18.607    15:52:18: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 1048576
+2022-08-25 15:52:18.608    
+2022-08-25 15:52:18.608    15:52:18: INFO: TARGET SAID: 'Patched sector 13 with 01D1EFDE'
+2022-08-25 15:52:18.609    
+2022-08-25 15:52:18.609    15:52:18: INFO: TARGET SAID: 'Patched sector 30535658 with 01D1EFDE'
+2022-08-25 15:52:18.610    
+2022-08-25 15:52:18.610    15:52:18: INFO: TARGET SAID: 'Patched sector 1 with 01D1EFDE'
+2022-08-25 15:52:18.610    
+2022-08-25 15:52:18.611    15:52:18: INFO: TARGET SAID: 'Patched sector 30535679 with 01D1EFDE'
+2022-08-25 15:52:18.611    
+2022-08-25 15:52:18.612    15:52:18: INFO: TARGET SAID: 'Patched sector 1 with 01D1EFFF'
+2022-08-25 15:52:18.612    
+2022-08-25 15:52:18.613    15:52:18: INFO: TARGET SAID: 'Patched sector 30535679 with 01D1EFFF'
+2022-08-25 15:52:18.613    
+2022-08-25 15:52:18.614    15:52:18: INFO: TARGET SAID: 'Patched sector 30535679 with 01D1EFDF'
+2022-08-25 15:52:18.614    
+2022-08-25 15:52:18.615    15:52:18: INFO: TARGET SAID: 'crc start sector 2, over bytes 6144'
+2022-08-25 15:52:18.615    
+2022-08-25 15:52:18.616    15:52:18: INFO: TARGET SAID: 'Patched sector 1 with 738B41A9'
+2022-08-25 15:52:18.616    
+2022-08-25 15:52:18.617    15:52:18: INFO: TARGET SAID: 'crc start sector 30535647, over bytes 6144'
+2022-08-25 15:52:18.617    
+2022-08-25 15:52:18.618    15:52:18: INFO: TARGET SAID: 'Patched sector 30535679 with 738B41A9'
+2022-08-25 15:52:18.618    
+2022-08-25 15:52:18.619    15:52:18: INFO: TARGET SAID: 'Patched sector 1 with 00000000'
+2022-08-25 15:52:18.619    
+2022-08-25 15:52:18.619    15:52:18: INFO: TARGET SAID: 'crc start sector 1, over bytes 92'
+2022-08-25 15:52:18.620    
+2022-08-25 15:52:18.620    15:52:18: INFO: TARGET SAID: 'Patched sector 1 with 0988C0EA'
+2022-08-25 15:52:18.621    
+2022-08-25 15:52:18.621    15:52:18: INFO: TARGET SAID: 'Patched sector 30535679 with 00000000'
+2022-08-25 15:52:18.622    
+2022-08-25 15:52:18.622    15:52:18: INFO: TARGET SAID: 'crc start sector 30535679, over bytes 92'
+2022-08-25 15:52:18.623    
+2022-08-25 15:52:18.624    15:52:18: INFO: TARGET SAID: 'Patched sector 30535679 with 9F515504'
+2022-08-25 15:52:18.624    15:52:18: INFO: ==============================================================
+2022-08-25 15:52:18.625    15:52:18: INFO: Files used and their paths
+2022-08-25 15:52:18.625    15:52:18: INFO:   1 'C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16\port_trace.txt'
+2022-08-25 15:52:18.625    15:52:18: INFO:   2 'D:\IM\Tools-IM\Redmi_Note-3_QCOM\UnlockBL\firm\patch0.xml'
+2022-08-25 15:52:18.625    
+2022-08-25 15:52:18.627    15:52:18: INFO:      _             (done)
+2022-08-25 15:52:18.627    15:52:18: INFO:     | |                 
+2022-08-25 15:52:18.628    15:52:18: INFO:   __| | ___  _ __   ___ 
+2022-08-25 15:52:18.628    15:52:18: INFO:  / _` |/ _ \| '_ \ / _ \
+2022-08-25 15:52:18.629    15:52:18: INFO: | (_| | (_) | | | |  __/
+2022-08-25 15:52:18.629    15:52:18: INFO:  \__,_|\___/|_| |_|\___|
+2022-08-25 15:52:18.630    15:52:18: INFO: {All Finished Successfully}
+2022-08-25 15:52:18.630    
+2022-08-25 15:52:18.630    15:52:18: INFO: FILE ACCESS SLOW!!     0.00 B in  0.015 seconds (    0.00 Bps) --- Overall to target  0.437 seconds (0.00 Bps)
+2022-08-25 15:52:18.631    
+2022-08-25 15:52:18.632    Writing log to 'C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16\port_trace.txt', might take a minute
+2022-08-25 15:52:18.632    
+2022-08-25 15:52:18.632    
+2022-08-25 15:52:18.633    Log is 'C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16\port_trace.txt'
+2022-08-25 15:52:18.633    
+2022-08-25 15:52:18.634    ***** Working Folder:C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16
+2022-08-25 15:52:18.731    
+2022-08-25 15:52:18.732    Base Version: 17.11.16.14.34
+2022-08-25 15:52:18.733    Binary build date: Nov 21 2017 @ 02:53:33
+2022-08-25 15:52:18.733    Incremental Build version: 17.11.21.02.53.33
+2022-08-25 15:52:18.734    
+2022-08-25 15:52:18.734    15:52:18: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+2022-08-25 15:52:18.735    ************************************************
+2022-08-25 15:52:18.735    C:\Program Files (x86)\Qualcomm\QPST\bin\fh_loader.exe --port=\\.\COM16 --setactivepartition=0 --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=emmc 
+2022-08-25 15:52:18.736    ************************************************
+2022-08-25 15:52:18.736    
+2022-08-25 15:52:18.737    15:52:18: INFO: Current working dir (cwd): C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16\
+2022-08-25 15:52:18.737    15:52:18: INFO: Showing network mappings to allow debugging
+2022-08-25 15:52:18.738    15:52:18: INFO: User wants to talk to port '\\.\COM16'
+2022-08-25 15:52:18.738    15:52:18: INFO: Took       0.00000000 seconds to open port
+2022-08-25 15:52:18.739    15:52:18: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+2022-08-25 15:52:18.740    15:52:18: INFO: If  you don't want this, use --dontsorttags
+2022-08-25 15:52:18.740    
+2022-08-25 15:52:18.741    15:52:18: INFO: Sending <configure>
+2022-08-25 15:52:18.741    
+2022-08-25 15:52:18.741    15:52:18: INFO: TARGET SAID: 'logbuf@0x0806D788 fh@0x0806A5F0'
+2022-08-25 15:52:18.742    15:52:18: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+2022-08-25 15:52:18.743    15:52:18: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 1048576
+2022-08-25 15:52:18.743    15:52:18: INFO: Sending <setbootablestoragedrive>
+2022-08-25 15:52:18.744    
+2022-08-25 15:52:18.744    15:52:18: INFO: TARGET SAID: 'Set bootable drive to 0.'
+2022-08-25 15:52:18.745    15:52:18: INFO: ==============================================================
+2022-08-25 15:52:18.745    15:52:18: INFO: Files used and their paths
+2022-08-25 15:52:18.746    15:52:18: INFO:   1 'C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16\port_trace.txt'
+2022-08-25 15:52:18.746    
+2022-08-25 15:52:18.747    15:52:18: INFO:      _             (done)
+2022-08-25 15:52:18.747    15:52:18: INFO:     | |                 
+2022-08-25 15:52:18.747    15:52:18: INFO:   __| | ___  _ __   ___ 
+2022-08-25 15:52:18.747    15:52:18: INFO:  / _` |/ _ \| '_ \ / _ \
+2022-08-25 15:52:18.748    15:52:18: INFO: | (_| | (_) | | | |  __/
+2022-08-25 15:52:18.748    15:52:18: INFO:  \__,_|\___/|_| |_|\___|
+2022-08-25 15:52:18.749    15:52:18: INFO: {All Finished Successfully}
+2022-08-25 15:52:18.749    
+2022-08-25 15:52:18.750    15:52:18: INFO: FILE ACCESS SLOW!!     0.00 B in  0.015 seconds (    0.00 Bps) --- Overall to target  0.063 seconds (0.00 Bps)
+2022-08-25 15:52:18.751    
+2022-08-25 15:52:18.751    Writing log to 'C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16\port_trace.txt', might take a minute
+2022-08-25 15:52:18.752    
+2022-08-25 15:52:18.753    
+2022-08-25 15:52:18.753    Log is 'C:\Users\Nana\AppData\Roaming\Qualcomm\QFIL\COMPORT_16\port_trace.txt'
+2022-08-25 15:52:18.754    
+2022-08-25 15:52:18.762    Download Succeed
+2022-08-25 15:52:18.764    Finish Download
